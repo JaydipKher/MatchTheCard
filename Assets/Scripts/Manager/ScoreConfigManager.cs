@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreConfigManager :  Singleton<ScoreConfigManager>
+public class ScoreConfigManager : Singleton<ScoreConfigManager>
 {
     public int pointsPerMatch = 10;
     public int mismatchPenalty = 5;
@@ -31,6 +31,9 @@ public class ScoreConfigManager :  Singleton<ScoreConfigManager>
         {
             consecutiveMatches = 0;
             currentScore -= mismatchPenalty;
+
+            if (currentScore < 0)
+                currentScore = 0;
         }
     }
 

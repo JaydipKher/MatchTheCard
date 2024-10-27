@@ -113,7 +113,6 @@ public class GamePlayScreen : MonoBehaviour
     }
     private void onLoadingComplete()
     {
-        Debug.Log("Loading Complete");
         GameActionManager.Instance.onLevelReset();
         GameActionManager.Instance.generateLevel?.Invoke(PlayerManager.Instance.currentLevel);
     }

@@ -71,7 +71,6 @@ public class SetAnchorScript : MonoBehaviour
 
     public void OnResolutionChange()
     {
-        Debug.Log("############ Screen Resolution Changed");
         SetUI(anchore);
     }
 

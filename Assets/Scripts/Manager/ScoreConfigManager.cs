@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,8 +8,6 @@ public class ScoreConfigManager :  Singleton<ScoreConfigManager>
     public float comboMultiplier = 1.5f;
     private int currentScore = 0;
     private int consecutiveMatches = 0;
-
-    private List<string> scoreLog = new List<string>();
 
     // Method to calculate score based on match success or failure
     private void OnEnable()

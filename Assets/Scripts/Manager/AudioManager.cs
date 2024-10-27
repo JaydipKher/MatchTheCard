@@ -4,10 +4,7 @@ public class AudioManager :Singleton<AudioManager>
 {
     [SerializeField] private AudioSource effectSrc;
     [SerializeField] private AudioSource backGroundSrc;
-
-
     [SerializeField] private AudioClip backgroundMusic;
-
     
     private bool isBackgroundMusicMute = false;
     private bool isEffectsMute = false;
@@ -46,13 +43,9 @@ public class AudioManager :Singleton<AudioManager>
         isBackgroundMusicMute = !isBackgroundMusicMute;
 
         if (isBackgroundMusicMute)
-        {
             backGroundSrc.Pause();
-        }
         else
-        {
             backGroundSrc.UnPause();
-        }
     }
 
     // Toggle sound effects on/off

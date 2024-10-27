@@ -16,5 +16,4 @@ public class GameActionManager : Singleton<GameActionManager>
    public Action hideLoadingComplete;
    public Action<bool> UpdateScrore;
    public Action<Action> displayScore;
-
 }

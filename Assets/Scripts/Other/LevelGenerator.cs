@@ -13,6 +13,7 @@ public class LevelGenerator : MonoBehaviour
     private LevelInfo currentlevelInfo;
     private void OnEnable()
     {
+        Application.targetFrameRate = 90;
         cardData.FillCardData();
         gridRect = gridLayoutGroup.GetComponent<RectTransform>();
         GameActionManager.Instance.generateLevel += OnLevelGenerator;

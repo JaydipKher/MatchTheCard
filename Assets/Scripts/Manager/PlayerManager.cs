@@ -1,19 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 public class PlayerManager : Singleton<PlayerManager>
 {
     public int currentLevel = 0;
     public int score = 0;
-    private string filePath;
     private const string dataFileName = "playerdata.json";
     private UserData currentUserdData;
     private void OnEnable()
     {
+        currentUserdData = new UserData(0, 0);
         LoadData();
-        currentLevel = currentUserdData.level;
-        score = currentUserdData.score;
         GameActionManager.Instance.onLevelComplete += OnLevelComplete;
     }
     private void OnDisable()
@@ -40,11 +36,13 @@ public class PlayerManager : Singleton<PlayerManager>
         {
             string json = File.ReadAllText(filePath);
             currentUserdData= JsonUtility.FromJson<UserData>(json);
+            currentLevel = currentUserdData.level;
+            score = currentUserdData.score;
         }
-        else
+        /*else
         {
             SaveData(currentLevel,ScoreConfigManager.Instance.GetCurrentScore());
-        }
+        }*/
     }
 }
 [System.Serializable]

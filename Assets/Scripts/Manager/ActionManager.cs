@@ -6,7 +6,7 @@ using System;
 public class ActionManager : MonoBehaviour
 {
     public static ActionManager instance;
-    public Action<int> levelGenerator;
+    public Action<int> generateLevel;
 
     private void Awake()
     {

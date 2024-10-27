@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e5f054e662649ffaed33153f9a152d, type: 3}
+  m_Name: CardDta
+  m_EditorClassIdentifier: 
+  AllSprites:
+  - {fileID: 21300000, guid: d072c3d954a946b45a31f76b4790d662, type: 3}
+  - {fileID: 21300000, guid: 8bda2d6a366a0f2488a17c3ef0e324ec, type: 3}
+  - {fileID: 21300000, guid: 60c05b4a1151b7c4fb3f7059035409e5, type: 3}
+  - {fileID: 21300000, guid: 3277341f8c5968c47a2fe675b4ba1cdc, type: 3}
+  - {fileID: 21300000, guid: 6387164c54663f94cbf521c8fb61b2c8, type: 3}
+  - {fileID: 21300000, guid: f90f73e1c8de8d14d8d43a442bd210a7, type: 3}
+  - {fileID: 21300000, guid: a9edd8cd8dc01af4fa00e443b37f4c5a, type: 3}
+  - {fileID: 21300000, guid: c27da93522a091242a62aaa6ae9c5f6c, type: 3}
+  - {fileID: 21300000, guid: ba30f4d1a9118514fb2148f525c485b2, type: 3}
+  - {fileID: 21300000, guid: 20e874b77e8b77f4daac4aa248b3a52c, type: 3}
+  - {fileID: 21300000, guid: ce7420f55b4c03145866446ac77db298, type: 3}
+  - {fileID: 21300000, guid: 9382a7f4e3ef07940a3dc73475be91aa, type: 3}
+  - {fileID: 21300000, guid: d5b92ab064a11c04a859dd9b6dd79396, type: 3}
+  - {fileID: 21300000, guid: 60ee02afd5c8e8348a7caa9c0dcdc413, type: 3}
+  - {fileID: 21300000, guid: 7b3efb28cdfce9845994335ef40e7deb, type: 3}
+  - {fileID: 21300000, guid: 8f3b7858de144da4893fe111e06fa9d2, type: 3}
+  - {fileID: 21300000, guid: 449e657dec12b194d8370fce72ccf9d4, type: 3}
+  - {fileID: 21300000, guid: d2cd3267501df794dbba29eaddb359a0, type: 3}
+  - {fileID: 21300000, guid: 18073a6c2b066cd45b05a1354898430c, type: 3}
+  - {fileID: 21300000, guid: e25995716b784544f9fdda525a35f2f1, type: 3}
+  - {fileID: 21300000, guid: d385ca24c8e4f1b45b116eed418d7fa6, type: 3}
+  - {fileID: 21300000, guid: fc966fa0839825a4080eedfd3c00cc80, type: 3}
+  - {fileID: 21300000, guid: b6da949e78480c148b8043b004c1e27c, type: 3}
+  - {fileID: 21300000, guid: 9830b199cc1197446840b0ba09848b9f, type: 3}
+  - {fileID: 21300000, guid: 201902f143c47194b8d517a44f18f890, type: 3}
+  - {fileID: 21300000, guid: 388f7104276488a4c998d9cf6ea385b1, type: 3}
+  - {fileID: 21300000, guid: 330d35c7692ec16499d1a352280ddab7, type: 3}
+  - {fileID: 21300000, guid: 54ef6517b41af07479cd1f3d1f9cd1b7, type: 3}
+  - {fileID: 21300000, guid: 97219a2ff11d1554a99fe82ac9b18bf8, type: 3}
+  - {fileID: 21300000, guid: b40c0864d98fae34d933acbd5407e607, type: 3}
+  - {fileID: 21300000, guid: c533e4bcba40884459aa0fa4b7410a44, type: 3}
+  - {fileID: 21300000, guid: 9af63d58c9584cf42944e9bd318ff71d, type: 3}
+  - {fileID: 21300000, guid: b310e1b7f7c4cb54381e9a5f1579d1da, type: 3}
+  - {fileID: 21300000, guid: 8994f1068daaf3c44b2dd6fec2f588c1, type: 3}
+  - {fileID: 21300000, guid: fd1175f0060b014489a202b907754e0a, type: 3}
+  - {fileID: 21300000, guid: b126a938fe3cb8d4e8b2cca8b8ba445b, type: 3}
+  - {fileID: 21300000, guid: dd411e5be9971f04faa92f9c5ac5b40c, type: 3}
+  - {fileID: 21300000, guid: 5849b6ac884c18a479852816d14402b6, type: 3}
+  - {fileID: 21300000, guid: 70c09b4040cb54547962b6143909b6ee, type: 3}
+  - {fileID: 21300000, guid: 4289b65a4287c1144bd724e4eb3e0575, type: 3}
+  - {fileID: 21300000, guid: 4b739468d316e844c9f60b5d5c7ffe42, type: 3}
+  - {fileID: 21300000, guid: f0227291c2929dc4f8dbea2825474625, type: 3}
+  - {fileID: 21300000, guid: 259464a21e961544f845fe061b5bf78e, type: 3}
+  - {fileID: 21300000, guid: b668384b25acd914ab749073fd584764, type: 3}
+  - {fileID: 21300000, guid: 49f88f8e7e1d3d643b831ef488f1952e, type: 3}
+  - {fileID: 21300000, guid: ff37131efdf17be4d893d05eddbc8806, type: 3}
+  - {fileID: 21300000, guid: 7667c5127c54aca41980ed872b122876, type: 3}
+  - {fileID: 21300000, guid: 3d10a0e1d0c1010459e505addd1d0593, type: 3}
+  - {fileID: 21300000, guid: 6c694b612bb790e438a29c682c08bfff, type: 3}
+  - {fileID: 21300000, guid: 0db7bb41768427049ac77147ea1b988b, type: 3}
+  cardSprites: []
